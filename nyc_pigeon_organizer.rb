@@ -12,8 +12,8 @@ def nyc_pigeon_organizer(data)
         if !new_array[name][key]
           !new_array[name][key] = []
         end
+        new_array[name][key].push(new_key)
       end
-      new_array[name][key].push(new_key)
     end
   end
 end
